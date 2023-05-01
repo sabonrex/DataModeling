@@ -68,7 +68,7 @@ class Pilots(Base):
 
 class User(Base):
     __tablename__ = 'User'
-    # Definimos las columnas de la tabla Planet
+   
     id = Column(Integer, primary_key=True)
     user_name = Column(String, nullable=False)
     password = Column(String, nullable=False)
